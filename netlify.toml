@@ -3,5 +3,6 @@
   publish = "build"
 
 [build.environment]
-  # Set this in Netlify UI instead of committing secrets
-  # REACT_APP_API_URL = "https://your-backend.example.com"
+  PYTHON_VERSION = "3.11"
+  NODE_VERSION = "18"
+  # Set REACT_APP_API_URL in Netlify UI dashboard
