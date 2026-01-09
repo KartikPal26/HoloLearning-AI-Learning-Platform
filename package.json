@@ -22,8 +22,12 @@
     "styled-components": "^6.1.15",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
   "scripts": {
     "start": "react-scripts start",
+    "dev": "concurrently \"python main.py\" \"npm start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
